@@ -70,7 +70,7 @@ class ViewController: UIViewController {
             return
         }
         self.timerButton.setTitle("타이머 종료하기", for: .normal)
-        self.secondsLeft = 180
+        //self.secondsLeft = 180
         self.updateSecondsLabel()
         
         //1초마다 타이머 반복 실행
